@@ -9,7 +9,6 @@ html {
 /* Homepage & Headings */
 
 #home {
-    min-height: 100vh;
     width: 100%;
     background-color:#F2DABD;
     animation-name: bgx;
@@ -1920,7 +1919,7 @@ footer .footersection2 nav.nav2 ul li {
     footer .copyrightinfo {
         display: block;
         margin-top: 0;
-        margin-bottom: .25em;
+        margin-bottom: 0;
         width: 95.4%;
         margin-left: auto;
         margin-right: auto;
