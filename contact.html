@@ -41,28 +41,27 @@
                    
                     <div class="contactinput">
                     <label for="name"><strong>Name</strong></label>
-                    <input type="text" name="name" id="name" maxlength="32" required>
+                    <input type="text" name="name" id="name" maxlength="14" placeholder="Max 32 characters" required>
                     </div>
 
                     <div class="contactinput">
                     <label for="phone"><strong>Phone</strong></label>
-                    <input type="tel" name="phone" id="phone" maxlength="32" required>
+                    <input type="tel" name="phone" id="phone" maxlength="32" placeholder="(###) ###-####" required pattern="\(\d{3}\)\s\d{3}-\d{4}" required>
                     </div>
 
                     <div class="contactinput">
                     <label for="email"><strong>Email</strong></label>
-                    <input type="email" name="email" id="email" maxlength="32" required>
+                    <input type="email" name="email" id="email" maxlength="32" required pattern="[\w.%+-]+@domain\.com\.ph" placeholder="youremail@domain.com" required>
                     </div>
 
                     <div class="contactinput">
                     <p id="comments"><strong>Questions or comments?</strong></p>    
-                    <textarea name="comments" rows="4" maxlength="400"></textarea>  
+                    <textarea name="comments" rows="4" maxlength="400" placeholder="Max 400 characters"></textarea>  
                     </div>
-
+                    
                     <div> 
                         <input type="submit" value="Send" class="signup">&nbsp;<input type="reset" value="Reset" class="signup">
                     </div>
-                    <!--<button class="signup">Send</button>-->
 
                 </fieldset>
             </form>
