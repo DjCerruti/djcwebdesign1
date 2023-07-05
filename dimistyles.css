@@ -740,7 +740,7 @@ fieldset label {
    margin-left: auto;
    height: 6em;
    font-size: 1em;
-   padding: 1em 0 1em 0;
+   padding: 1em 1em 1em 1em;
    border: 1px solid black;
 }
 
@@ -749,13 +749,14 @@ fieldset label {
 }
 
 #contact #contactus .signup {
-   display: block;
+   display: inline-block;
    font-family: Optima, Arsenal, sans-serif;
    font-size: 2em;
    padding: .32em;
    margin-top: .5em;
    margin-bottom: 0;
    margin-left: 0;
+   margin-right: .5em;
    border-radius: 15px;
    background-image: radial-gradient(rgb(215, 218, 221) 64%, darkslategray 98%);
    color: darkolivegreen;
@@ -1121,7 +1122,7 @@ footer .footersection2 nav.nav2 ul li {
         margin-left: auto;
         height: 6em;
         font-size: 1em;
-        padding: 1em 0 1em 0;
+        padding: 1em 1em 1em 1em;
         border: 1px solid black;
      }
  
@@ -1563,7 +1564,7 @@ textarea {
     margin-left: auto;
     height: 6em;
     font-size: 1em;
-    padding: 1em 0 1em 0;
+    padding: 1em 1em 1em 1em;
     border: 1px solid black;
 }
 
@@ -1572,13 +1573,14 @@ textarea {
 }
 
 #contact #contactus .signup {
-    display: block;
+    display: inline-block;
     font-family: Optima, Arsenal, sans-serif;
     font-size: 2em;
     padding: .32em;
     margin-top: .5em;
     margin-bottom: 0;
     margin-left: 0;
+    margin-right: .5em;
     border-radius: 15px;
     background-image: radial-gradient(rgb(215, 218, 221) 64%, darkslategray 98%);
     color: darkolivegreen;
