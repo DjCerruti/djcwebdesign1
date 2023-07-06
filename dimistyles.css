@@ -746,10 +746,6 @@ fieldset label {
    font-family: Arial, "Gill Sans", sans-serif;
 }
 
-/*#contact input[type=text], #contact input[type=tel], #contact[type=email] {
-    font-size: 1.3em;
-}*/
-
 #contact p#comments {
    font-size: 1.5em;
 }
@@ -1132,11 +1128,6 @@ footer .footersection2 nav.nav2 ul li {
         border: 1px solid black;
         font-family: Arial, "Gill Sans", sans-serif;
      }
-
-     /*#contact input[type=text], #contact input[type=tel], #contact[type=email] {
-        font-size: 1.3em;
-        
-     }*/
  
 }   
 
@@ -1535,7 +1526,7 @@ fieldset input[type=text] {
     border-radius: 25px;
     height: 5em;
     border: 1px solid darkslategray;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding-left: 1em;
 }
 
@@ -1580,10 +1571,6 @@ fieldset label {
     padding: 1em 1em 1em 1em;
     border: 1px solid black;
     font-family: Arial, "Gill Sans", sans-serif;
-}
-
-#contact input[type=text], #contact input[type=tel] {
-    font-size: 1.2em;
 }
 
 #contact p#comments {
