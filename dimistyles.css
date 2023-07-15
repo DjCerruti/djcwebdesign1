@@ -1560,6 +1560,8 @@ fieldset label {
     margin-left: 0;
     display:inline-block;
     margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #contact textarea {
