@@ -32,40 +32,32 @@
             <p>If you need assistance or would like a consultation, contact us Mon-Fri, 9am-5pm. We will respond within 24 hours.</p>
         </div>
   
-       <!--<div class="section1">-->
-            <form method="post" action="mailto:vtaton@cerrocoso.edu" enctype="text/plain">
-
-                <fieldset id="contactus">
-            
-                    <legend><strong>Contact</strong></legend>
-                   
-                    <div class="contactinput">
-                    <label for="name"><strong>Name</strong></label>
-                    <input type="text" name="name" id="name" maxlength="14" placeholder="Max 32 characters" required>
-                    </div>
-
-                    <div class="contactinput">
-                    <label for="phone"><strong>Phone</strong></label>
-                    <input type="tel" name="phone" id="phone" maxlength="32" placeholder="(###) ###-####" required pattern="\(\d{3}\)\s\d{3}-\d{4}" required>
-                    </div>
-
-                    <div class="contactinput">
-                    <label for="email"><strong>Email</strong></label>
-                    <input type="email" name="email" id="email" maxlength="32" required pattern="[\w.%+-]+@domain\.com\.ph" placeholder="youremail@domain.com" required>
-                    </div>
-
-                    <div class="contactinput">
-                    <p id="comments"><strong>Questions or comments?</strong></p>    
-                    <textarea name="comments" rows="4" maxlength="400" placeholder="Max 400 characters"></textarea>  
-                    </div>
-                    
-                    <div> 
-                        <input type="submit" value="Send" class="signup">&nbsp;<input type="reset" value="Reset" class="signup">
-                    </div>
-
-                </fieldset>
+       <div class="container">
+            <h1>FormSubmit Demo</h1>
+            <form target="_blank" action="https://formsubmit.co/dimitri@djcerruti.com" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <label for="name" class="form-label"><strong>Name</strong></label>
+                    <input type="text" name="name" class="form-control"  id="name" maxlength="32" placeholder="Max 32 characters" required>
+                  </div>
+                  <div class="col">
+                    <label for="name" class="form-label"><strong>Phone</strong></label>
+                    <input type="tel" name="phone" class="form-control"  id="phone" maxlength="14" placeholder="(###) ###-####" pattern="\(\d{3}\)\s\d{3}-\d{4}" required>
+                  </div>
+                  <div class="col">
+                    <label for="email" class="form-label"><strong>Email</strong></label>
+                    <input type="email" name="email" class="form-control" id="email" maxlength="32"  placeholder="youremail@domain.com" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="comments" class="form-label"><strong>Questions or comments?</strong></label>    
+                <textarea class="form-control" name="comments" id="comments" rows="4" maxlength="400" placeholder="Max 400 characters" required></textarea>
+              </div>
+              <button type="submit" name="submit" class="btn">Send</button>
             </form>
-        <!--</div>-->
+          </div>
 
 </div>
 
